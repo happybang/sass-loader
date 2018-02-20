@@ -26,10 +26,10 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "async": "^2.1.5",
     "clone-deep": "^2.0.1",
     "loader-utils": "^1.0.1",
     "lodash.tail": "^4.1.1",
+    "neo-async": "^2.5.0",
     "pify": "^3.0.0"
   },
   "devDependencies": {
@@ -47,7 +47,8 @@
     "standard-version": "^4.2.0",
     "style-loader": "^0.18.2",
     "webpack-dev-server": "^2.4.1",
-    "webpack-merge": "^4.0.0"
+    "webpack-merge": "^4.0.0",
+    "webpack": "^3.11.0"
   },
   "engines": {
     "node": ">= 4.3 < 5.0.0 || >= 5.10"
